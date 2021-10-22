@@ -13,6 +13,6 @@ async def on_message(message):
     
     if message.content == "mcf-bot":
         response = "Hello! I am the MCF bot."
-        await message.channel.send
+        await message.channel.send(response)
     
 client.run(TOKEN)
